@@ -15,6 +15,8 @@ public class ProjectTest
         student1.add("Tyreeq");
         student1.add("Caelum");
 
+
+
         student2.add("Tyreeq");
 
         //remove
@@ -81,7 +83,31 @@ public class ProjectTest
         }
 
         //Collection
+        Collection<String> cat = new HashSet<>();
 
+        //add
+        cat.add("cat");
+        cat.add("catto");
+        cat.add("catsby");
 
+        System.out.println("Collection:");
+        System.out.println(cat);
+
+        //remove
+        cat.remove("catto");
+
+        System.out.println(cat);
+
+        //find
+        if(cat.contains("catsby"))
+        {
+            System.out.println("True");
+        }
+        else
+        {
+            System.out.println("False");
+        }
     }
+
+
 }
