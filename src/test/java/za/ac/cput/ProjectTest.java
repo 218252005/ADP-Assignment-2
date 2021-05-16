@@ -15,8 +15,6 @@ public class ProjectTest
         student1.add("Tyreeq");
         student1.add("Caelum");
 
-
-
         student2.add("Tyreeq");
 
         //remove
